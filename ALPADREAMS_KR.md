@@ -48,7 +48,7 @@
 | **정식 명칭** | AlpaDreams — Real-Time Generative Closed-Loop Autonomous Vehicle Simulation Built on NVIDIA Cosmos |
 | **개발 주체** | NVIDIA Spatial Intelligence Lab (SIL) · NVIDIA DRIVE |
 | **최초 공개** | NVIDIA GTC26 (2026년 봄, San Jose) — 부스 데모 + 공식 블로그 |
-| **대표 연구자** | Sanja Fidler, Xuanchi Ren, Zan Gojcic, Jun Gao, Amlan Kar 외 총 27명 |
+| **대표 연구자** | Sanja Fidler, Xuanchi Ren, Zan Gojcic, Jun Gao, Amlan Kar 외 총 29명 |
 | **모델 유형** | Action-conditioned **transformer 기반 autoregressive** 생성형 world model (KV cache) |
 | **백본** | NVIDIA **Cosmos** World Foundation Model (post-trained) |
 | **입력 조건** | 월드 시나리오(레인/바운딩박스) + 텍스트 프롬프트 + 메모리 캐시 |
@@ -162,7 +162,7 @@ AlpaDreams 의 공식 설명을 그대로 옮기면:
 | **실측 처리량** | **4 카메라 × 105 FPS × 704×1280** @ 16× GB300 NVL72 |
 | **카메라 일관성** | cross-view attention 으로 3D consistency 확보 |
 | **롱테일 커버** | 프롬프트 기반 counterfactual (야간/눈/비/안개 등) |
-| **롱 롤아웃 안정성** | 다분 단위 rollout 에서 시각 붕괴 없음 (recondition + memory cache) |
+| **롱 롤아웃 안정성** | 수 분 단위 rollout 에서 시각 붕괴 없음 (recondition + memory cache) |
 
 > 📎 성능 원문: *"AlpaDreams generates four camera views at 105 FPS each with 704×1280 resolution on 16 NVIDIA GB300 NVL72 GPUs."*
 
@@ -352,7 +352,7 @@ AlpaDreams 의 공식 설명을 그대로 옮기면:
 
 ## 10. 기여자 목록 (공식 크레딧)
 
-공식 페이지에 명시된 총 **27인** (가나다/알파벳 순 원문 그대로):
+공식 페이지에 명시된 총 **29인** (알파벳 순 원문 그대로):
 
 > Aarti Basant · Amlan Kar · Despoina Paschalidou · Guillermo Garcia Cobo · Haithem Turki · Huan Ling · Jaewoo Seo · Jialiang Wang · James Lucas · Jay Wu · Jonathan Lorraine · Jun Gao · Kai He · Katarina Tothova · Kevin Xie · Michal Tyszkiewicz · Qi Wu · Riccardo de Lutio · Ruilong Li · Sanja Fidler · Seung Wook Kim · Tianchang Shen · Tianshi Cao · Tobias Pfaff · William Lew · Xuanchi Ren · Yifan Lu · Zan Gojcic · Zian Wang
 
@@ -405,5 +405,6 @@ AlpaDreams 의 공식 설명을 그대로 옮기면:
 
 ### 변경 로그
 
-- **2026-04-16 v2**: 공식 프로젝트 페이지 본문(영상 6편, 도식 3장, 기술 스펙, 기여자 27명, 릴리스 계획) 확보 후 대폭 보강. 이전 버전의 "코드 미공개" 기술을 "**GTC26 이후 AlpaSim 리서치 통합 형태로 공개 예정**" 으로 수정.
+- **2026-04-17 v2.1**: 크레딧 수 정정(27명 → 29명, 공식 페이지 목록과 대조), "다분 단위" 오타 수정("수 분 단위"), 섹션 10 정렬 설명 간소화.
+- **2026-04-16 v2**: 공식 프로젝트 페이지 본문(영상 6편, 도식 3장, 기술 스펙, 기여자 목록, 릴리스 계획) 확보 후 대폭 보강. 이전 버전의 "코드 미공개" 기술을 "**GTC26 이후 AlpaSim 리서치 통합 형태로 공개 예정**" 으로 수정.
 - **2026-04-16 v1**: 초기 정리 — 공식 페이지 본문이 잡히지 않아 SNS/주변 릴리스 교차 참조로 작성.
