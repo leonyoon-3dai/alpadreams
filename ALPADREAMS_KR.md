@@ -377,7 +377,7 @@ AlpaDreams 의 공식 설명을 그대로 옮기면:
 | 🎞️ Wind drive | [wind.mp4](https://research.nvidia.com/labs/sil/projects/alpadreams/wind.mp4) |
 | 🎞️ Mattress on highway | [mattress.mp4](https://research.nvidia.com/labs/sil/projects/alpadreams/mattress.mp4) |
 | 🎞️ Scene editing | [editing.mp4](https://research.nvidia.com/labs/sil/projects/alpadreams/editing.mp4) |
-| 🎞️ Long rollout (4x) | [recording_4x.mp4](https://research.nvidia.com/labs/sil/projects/alpadreams/recording_4x.mp4) |
+| 🎞️ Video 4 — Long rollout (4x) | [recording_4x.mp4](https://research.nvidia.com/labs/sil/projects/alpadreams/recording_4x.mp4) |
 | 🖼️ Figure 1 (폐루프 블록도) | [images/fig1.jpg](https://research.nvidia.com/labs/sil/projects/alpadreams/images/fig1.jpg) |
 | 🖼️ Figure 2 (입력 컨디셔닝) | [images/fig2.jpg](https://research.nvidia.com/labs/sil/projects/alpadreams/images/fig2.jpg) |
 | 🖼️ Figure 3 (autoregressive) | [images/fig3.jpg](https://research.nvidia.com/labs/sil/projects/alpadreams/images/fig3.jpg) |
